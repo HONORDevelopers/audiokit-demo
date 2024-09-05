@@ -1,0 +1,74 @@
+/*
+ * Copyright (c) Honor Device Co., Ltd. 2022-2023. All rights reserved.
+ */
+
+apply plugin: 'com.android.application'
+apply plugin: 'com.hihonor.mcs.asplugin'
+android {
+    namespace "com.hihonor.audiokitdev"
+    compileSdkVersion 34
+    defaultConfig {
+        applicationId "com.hihonor.audiokitdev"
+        minSdkVersion 32
+        targetSdkVersion 34
+        multiDexEnabled true
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('android.jks')
+            storePassword 'android'
+            keyPassword 'android'
+            keyAlias 'android'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+        }
+    }
+
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+            java.srcDirs = ['src/main/java']
+            res.srcDirs = ['src/main/res']
+            assets.srcDirs = ['src/main/assets']
+            manifest.srcFile 'src/main/AndroidManifest.xml'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+    implementation  fileTree(include: ['*.jar'], dir: 'libs')
+    implementation  fileTree(include: ['*.aar'], dir: 'libs')
+    implementation 'androidx.core:core:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.6.0'
+    implementation 'androidx.annotation:annotation:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.hihonor.mcs:media-audio:1.0.1+'
+}

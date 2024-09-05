@@ -1,0 +1,36 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            allowInsecureProtocol = true
+            url "https://developer.hihonor.com/repo"
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.0.0'
+        // 增加asplugin插件配置，推荐您使用最新版本。
+        classpath 'com.hihonor.mcs:asplugin:2.0.1.300'
+    }
+}
+
+allprojects{
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            allowInsecureProtocol = true
+            url "https://developer.hihonor.com/repo"
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+

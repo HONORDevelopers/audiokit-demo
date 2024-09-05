@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadingEdge="vertical"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/earReturnAndRecordButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="2dp"
+            android:text="耳返和多路录音Demo" />
+        <Button
+            android:id="@+id/highSampleRatePlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="高采样率音频播放Demo"
+            android:layout_marginEnd="2dp"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/recordNoiseReduction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="录音降噪Demo"
+            android:layout_marginEnd="@dimen/dimen_2dip"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/spaceAudioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="空间音频Demo"
+            android:layout_marginEnd="@dimen/dimen_2dip"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</ScrollView>

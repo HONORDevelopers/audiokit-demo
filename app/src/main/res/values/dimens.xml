@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) hihonor Technologies Co., Ltd. 2022-2022. All rights reserved.
+  -->
+
+<resources>
+    <dimen name="dimen_24dip">24dp</dimen>
+    <dimen name="dimen_14dip">14dp</dimen>
+    <dimen name="dimen_3dip">3dp</dimen>
+    <dimen name="dimen_10dip">10dp</dimen>
+    <dimen name="dimen_8dip">8dp</dimen>
+    <dimen name="dimen_16dip">16dp</dimen>
+    <dimen name="dimen_16sp">16sp</dimen>
+    <dimen name="dimen_2dip">2dp</dimen>
+    <dimen name="dimen_14sp">14sp</dimen>
+    <dimen name="paddingLeft">8dp</dimen>
+</resources>

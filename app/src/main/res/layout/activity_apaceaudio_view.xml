@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/paddingLeft"
+    tools:context=".activity.SpaceAudioDemoActivity">
+    <TextView
+        android:layout_marginStart="@dimen/dimen_24dip"
+        android:layout_marginTop="@dimen/dimen_24dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="测试空间音频请链接耳机" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/space_Audio_Is_Available_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="是否支持空间音频" />
+
+        <Button
+            android:id="@+id/space_Audio_Is_Enable_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="空间音频是否开启" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:background="@color/colorTextBackground">
+
+        <TextView
+            android:id="@+id/infoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="结果显示"
+            android:textColor="@color/colorHint"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+        <TextView
+            android:id="@+id/infoTextView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="结果显示"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textColor="@color/colorHint"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

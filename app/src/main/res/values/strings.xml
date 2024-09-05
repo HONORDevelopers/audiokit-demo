@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">audiokitdemo</string>
+    <string name="switchLowLatency">tap to switch</string>
+    <string name="LowLatencyRecord">Now is LowLatency Record</string>
+    <string name="LowLatencyRecording">LowLatency is recording, need stop first</string>
+    <string name="NormalRecording">Normal is recording, need stop first</string>
+    <string name="NormalRecord">Now is Normal Record</string>
+    <string name="startRecord">START RECORDING</string>
+    <string name="stopRecord">STOP RECORDING</string>
+    <string name="playRecord">Play Recordings</string>
+    <string name="stopPlayRecord">Stop Playing Recordings</string>
+    <string name="recordInfo">Recordings Information</string>
+    <string name="getFeatures">Supported Features</string>
+    <string name="isFeatureSupport">Whether support the Feature</string>
+    <string name="isKaraokeSupport">whether support ear return</string>
+    <string name="enableKaraoke">Turn On KARAOKE</string>
+    <string name="getLatency">GET LATENCY</string>
+    <string name="getDeviceSupportKaraoke">Whether the device supports K song back</string>
+    <string name="getDeviceSupportFBRecord">Does the device support full-band recording</string>
+    <string name="features">"Current supported features:"</string>
+    <string name="support">"Support "</string>
+    <string name="notSupport">"Not support "</string>
+    <string name="supportKaraoke">Support karaoke</string>
+    <string name="notSupportKaraoke">Not support karaoke</string>
+    <string name="closeKaraoke">Turn Off KARAOKE</string>
+    <string name="openSuccess">The Karaoke feature has been turned on.</string>
+    <string name="openFail">The Karaoke feature could not turn on.</string>
+    <string name="closeSuccess">The Karaoke feature has been turned off.</string>
+    <string name="closeFail">The Karaoke feature could not turn off.</string>
+    <string name="notOpenKaraoke">The Karaoke feature has been turned off, please turn it on first.</string>
+    <string name="latency">Latency:</string>
+    <string name="latencyFail">Could not get latency. </string>
+    <string name="getFail">Could not get supported features.</string>
+    <string name="dialogPositive">Confirm</string>
+    <string name="gotoSettings">Go to Settings to turn on permissions</string>
+    <string name="resultNullContext">The context you input is empty.</string>
+    <string name="appIdError">The appId check failed or network is not connected.</string>
+    <string name="notInstallAudioKitService">The audio kit service is not installed.</string>
+    <string name="audioKitServiceDisconnect">The basic service of audio Kit has been disconnected.</string>
+    <string name="audioKitServiceDied">The basic service of audio kit is died.</string>
+    <string name="audioKitServiceNotInit">The basic service of audio kit is not initialized.</string>
+    <string name="audioKitSdkVersionOld">The audio Kit SDK version is too old.</string>
+    <string name="karaokeServiceDisconnect">The Karaoke service has been disconnected</string>
+    <string name="karaokePermissionNot">The permission of Karaoke service has been turned off.</string>
+    <string name="karaokeAppIdPermissionFail">The appId of Karaoke service permission could not be verified.</string>
+    <string name="notHeadset">The headphone or bluetooth is not supported in the programme.</string>
+    <string name="karaokeServiceDied">The Karaoke service is died.</string>
+    <string name="initSuccess">Initialized successfully</string>
+    <string name="karaokeServiceSucess">The basic service of audio Kit has been connected.</string>
+    <string name="kitServiceSucess">The Karaoke service has been connected</string>
+    <string name="init">"init"</string>
+    <string name="initKaraoke">"initKaraoke"</string>
+    <string name="isInit">"Please confirm that it has been initialized"</string>
+    <string name="isDevice">Please select device type</string>
+    <string name="noFeatures">Currently no supported types</string>
+    <string name="notSupportFeature">This feature is not supported by current products</string>
+    <string name="notSupportBluetoothFeature">This bluetooth feature is not supported by current products</string>
+    <string name="versionNotMatch">SDK version does not match</string>
+    <string name="audiokitPermissionFail">The appId basic service permission check failed</string>
+    <string name="defaultReverberation">Default mode</string>
+    <string name="ktvReverberation">KTV mode</string>
+    <string name="theaterReverberation">Theater mode</string>
+    <string name="concertReverberation">Concert mode</string>
+    <string name="setVolume">Human voice</string>
+    <string name="setting">Setting</string>
+    <string name="defaultEqualizerMode">Default equalizer</string>
+    <string name="fullEqualizerMode">Fully equalizer</string>
+    <string name="brightEqualizerMode">Bright equalizer</string>
+    <string name="success">success</string>
+    <string name="paramValueError">Wrong parameter value</string>
+    <string name="initAudioGameLive">"initAudioGameLive"</string>
+    <string name="isAdvancedRecordSupport">Whether advanced recording support</string>
+    <string name="audioGameLiveVoiceRecording">disable advanced record</string>
+    <string name="audioGameLiverequestVoice">enable advanced record</string>
+    <string name="requestVoiceRecording">The request for system audio recording related resources succeeded</string>
+    <string name="noRequestVoiceRecording">Failed to request resources related to system sound recording</string>
+    <string name="releaseVoiceRecording">Successfully released system sound recording related resources</string>
+    <string name="noReleaseVoiceRecording">Failed to release system sound recording related resources </string>
+    <string name="initAudioGameLiveSuccess">"Successfully initialized the Enhanced recording broadcast feature "</string>
+    <string name="initAudioGameLiveDisconnect">"Initiate game streaming feature disconnect"</string>
+    <string name="rec_start" translatable="false">start record</string>
+    <string name="rec_stop" translatable="false">stop record</string>
+    <string name="play_start_mic" translatable="false">play mic</string>
+    <string name="play_start_submix" translatable="false">play submix</string>
+    <string name="play_stop_all" translatable="false">stop play</string>
+    <string name="double_record" translatable="false">mic record on</string>
+    <string name="double_record_off" translatable="false">mic record off</string>
+    <string name="double_record_play" translatable="false">double record play</string>
+    <string name="start_record_video" translatable="false">start record video</string>
+    <string name="end_record_video" translatable="false">stop record video</string>
+    <string name="not_recording" translatable="false">Not recording</string>
+    <string name="recording_not_switch_camera" translatable="false">Recording Not Switch Camera</string>
+    <string name="scanning_finsh" translatable="false">Scanning Finsh</string>
+    <string name="not_support_3mic" translatable="false">Not Support 3Mic</string>
+    <string name="camera_back_switch" translatable="false">Camera Back Switch</string>
+    <string name="camera_front_switch" translatable="false">Camera Front Switch</string>
+    <string name="camera_file_exit" translatable="false">Camera File Exit</string>
+    <string name="camera_video_start" translatable="false">Record</string>
+    <string name="camera_video_stop" translatable="false">Stop</string>
+    <string name="camera_video_recording" translatable="false">recording</string>
+    <string name="video_normal" translatable="false">normal</string>
+    <string name="video_special" translatable="false">special</string>
+    <string name="no_video_file" translatable="false">No Video File</string>
+    <string name="title_audio_zoom" translatable="false">Zoom Reduced Volume Recording</string>
+    <string name="title_normal" translatable="false">Normal Recording</string>
+    <string name="video_mode_switch" translatable="false">Video Switch Mode</string>
+    <string name="video_camera_switch" translatable="false">Camera Switch</string>
+    <string name="sco_remove" translatable="false">sco_remove</string>
+    <string name="sco_add" translatable="false">sco_add</string>
+    <string name="startDefaultRecord" translatable="false">startDefaultRecord</string>
+    <string name="stopDefaultRecord" translatable="false">stopDefaultRecord</string>
+    <string name="playScoRecordButton" translatable="false">playScoRecordButton</string>
+    <string name="playDefaultRecordButton" translatable="false">playDefaultRecordButton</string>
+    <string name="scoRecordButton" translatable="false">scoRecordButton</string>
+    <string name="defaultRecordButton" translatable="false">defaultRecordButton</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="audio_space_is_support">is support audio apace:</string>
+    <string name="audio_space_status">audio apace status:</string>
+    <string name="unsupportvideodevice">The current device supports high-definition audio playback characteristic</string>
+</resources>

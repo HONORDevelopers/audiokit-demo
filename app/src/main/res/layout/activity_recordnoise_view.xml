@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/paddingLeft"
+    tools:context=".activity.AudioRecordNoiseDemoActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/setRecordMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置录音模式"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/startDefaultRecordButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/startDefaultRecord" />
+
+        <Button
+            android:id="@+id/stopDefaultRecordButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stopDefaultRecord" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/switch_reduce_noise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/dimen_3dip"
+            android:text="降噪"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <Button
+            android:layout_marginStart="@dimen/dimen_10dip"
+            android:id="@+id/playDefaultRecordButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="播放录音" />
+
+        <Button
+            android:layout_marginStart="@dimen/dimen_10dip"
+            android:id="@+id/stopPlayRecordButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="停止播放" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dimen_8dip"
+        android:layout_marginStart="@dimen/dimen_8dip"
+        android:layout_marginTop="@dimen/dimen_16dip"
+        android:background="@color/colorTextBackground">
+
+        <TextView
+            android:id="@+id/infoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_8dip"
+            android:layout_marginTop="@dimen/dimen_8dip"
+            android:paddingEnd="@dimen/dimen_8dip"
+            android:paddingStart="@dimen/dimen_8dip"
+            android:textColor="@color/colorHint"
+            android:textSize="@dimen/dimen_16sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+    </LinearLayout>
+
+</LinearLayout>
