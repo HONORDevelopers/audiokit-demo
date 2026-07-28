@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="getDeviceType">
+        <item>请选择设备类型</item>
+        <item>TYPE_WIRED_HEADPHONES</item>
+        <item>TYPE_WIRED_HEADSET</item>
+        <item>TYPE_USB_DEVICE</item>
+        <item>TYPE_USB_HEADSET</item>
+        <item>TYPE_BLUETOOTH_A2DP</item>
+    </string-array>
+</resources>
